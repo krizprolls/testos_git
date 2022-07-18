@@ -28,3 +28,12 @@ git status
 ```sh
 gitk
 ```
+
+## Faire un commit global
+```sh
+git add *
+git commit -m "<message>"
+```
+
+## Créer fichier .gitignore
+A la racine du projet, créer un fichier ".gitignore" dans lequel on inscrit les fichier ou dossier à ignorer lors du "git add *"
