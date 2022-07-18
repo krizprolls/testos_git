@@ -37,3 +37,25 @@ git commit -m "<message>"
 
 ## Créer fichier .gitignore
 A la racine du projet, créer un fichier ".gitignore" dans lequel on inscrit les fichier ou dossier à ignorer lors du "git add *"
+
+
+# Creer repo sur Github
+Sur le compte github.com créer un nouveau repositorie
+Suivre les instructions après la création du repo
+```sh
+echo "# testos_git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/krizprolls/testos_git.git
+git push -u origin main
+```
+
+## Push
+ensuite dès qu'il y a modification
+```sh
+git add *
+git commit -m "<messsage>"
+git push
+```
